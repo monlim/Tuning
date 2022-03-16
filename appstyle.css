@@ -1,0 +1,28 @@
+a {
+  background-color: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  padding: 1vw;
+  transition-duration: 0.2s;
+  z-index: 1;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  background: green;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
