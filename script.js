@@ -38,8 +38,8 @@ const osc3 = new Tone.Oscillator(440, "square").connect(gainNode);
 
 function makeSound(pitch) {
   osc1.frequency.value = pitch;
-  osc2.frequency.value = pitch * 0.5;
-  osc3.frequency.value = pitch * 1.5;
+  osc2.frequency.value = pitch;
+  osc3.frequency.value = pitch;
 }
 
 /*function incrementEventCount(){
@@ -124,7 +124,7 @@ demo_button.onclick = function (e) {
     osc1.start();
     osc2.start();
     osc3.start();
-    gainNode.gain.rampTo(0.5, 0.4);
+    gainNode.gain.rampTo(1, 0.4);
     is_running = true;
   }
 };
